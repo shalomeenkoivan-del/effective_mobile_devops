@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitoring of process "test"
+
+[Service]
+Type=oneshot
+ExecStart=/media/sf_Effective_Mobile_DevOps/monitoring.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
